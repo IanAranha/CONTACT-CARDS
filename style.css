@@ -1,0 +1,64 @@
+#MainBody{
+    width:710px;
+    height:400px;
+    background-color: grey;
+    border: 2px solid red;
+}
+
+#inputvalues{
+    margin-left: 20px;
+    margin-top:30px;
+    border:2px solid blue;
+    width: 320px;
+    height:300px;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contactcard{
+    margin-left: 15px;
+    margin-top:30px;
+    border:2px solid red;
+    width: 320px;
+    height:300px;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#form{
+    margin-left: 20px;
+}
+
+#textbox{
+    margin-left: 40px;
+    width:210px;
+    height:60px;
+    border: 2px solid blue;
+
+}
+
+#submit{
+    margin-left: 80px;
+    background-color: #5886d0;
+    height: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-top: -50px;
+}
+
+#card{
+    margin-left: 30px;
+    margin-top: 10px;
+    width:235px;
+    height:80px;
+    background-color: white;
+    border:3px solid black;
+    font-size: 25px;
+}
+
+#cardname{
+    margin-left: 30px;
+    margin-top: 10px;
+}

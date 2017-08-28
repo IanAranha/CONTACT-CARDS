@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#submit").click(function(){
+                var firstname=$("#firstname").val();
+                var lastname=$("#lastname").val();
+                var description=$("textarea").val();
+                    $("#contactcard").append("<div id ='card'><p id='cardname'>" + firstname + " " + lastname +"</p></div>");
+                return false;
+            });
+        });
+        </script>
+    </head>
+
+    <body>
+        <div id="MainBody">
+            <div id="inputvalues">
+                <form id="form">
+                <label>First Name:   </label>
+                <input type="text" id="firstname" placeholder='First Name' /><br />
+                <label>Last Name:   </label>
+                <input type="text" id="lastname" placeholder="Last Name" /><br />
+                <label>Description:   </label><br />
+                <textarea id="textbox"></textarea><br />
+                <button id="submit" type="submit"><b>Click to add user!</b></button>
+                </form>
+            </div>
+            <div id="contactcard">
+            </div>
+        </div>
+    </body>
+</html>
